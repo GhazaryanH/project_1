@@ -1,0 +1,59 @@
+.all_menu {
+    width: 100%;
+}
+
+.menu_left {
+    background: black;
+    color: #FFFFFF;
+    font-size: 25px;
+    height: calc(100% - 69.2px);
+}
+
+.com_new {
+    display: none;
+    color: red;
+    margin-right: 10px;
+}
+
+.com {
+    display: inline-block;
+}
+
+.com:hover {
+    cursor: pointer;
+    color: grey;
+}
+
+.left_ {
+    border-bottom: 2px solid grey;
+}
+
+.menu_right {
+    height: calc(100% - 69.2px);
+    display: none;
+}
+
+.com_cont {
+    background: silver;
+    padding: 10px;
+    border: 1px solid silver;
+    margin-bottom: 1px;
+}
+
+.user_name, .image_name {
+    font-size: 16px;
+}
+
+.comment_text {
+    font-size: 12px;
+}
+
+.edit_com i {
+    font-size: 35px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.edit_com i:hover {
+    color: darkred;
+}
